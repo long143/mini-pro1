@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        /*img {*/
+        /*    width: 190px;*/
+        /*    height: 50px;*/
+        /*}*/
+        body {
+            font-family: "Arial";
+            background-color: red;
+        }
+        ul {
+            margin-top: 42px;
+        }
+        #menu, #menu ul, #menu li {
+            padding: 0;
+            margin: 0;
+        }
+
+        #menu .dc {
+            width: auto;
+            height: 30px;
+            padding: 0 37px;
+            background-color: white;
+            line-height: 30px;
+            display: inline-block;
+        }
+
+        #menu li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        #menu li:hover {
+            background-color: white
+        }
+
+        #menu ul ul {
+            position: absolute;
+            visibility: hidden;
+        }
+
+        #menu ul li:hover .abc {
+            visibility: visible;
+            z-index: 999;
+            padding: 10px;
+        }
+        .abc {
+            background-color: white;
+            width: 240px;
+            height: 50px;
+            list-style: none;
+
+        }
+    </style>
+</head>
+<body>
+<!--<img src="image/1.jfif" alt="">-->
+<!--<h2>Best Shared Hosting Company</h2>-->
+<!--<strong>With this responsive landing page template, you can promote your all hosting, domain and email-->
+<!--    services.</strong>-->
+<!--<ul>-->
+<!--    <li><a href="#">View Plans</a></li>-->
+<!--    <li><a href="#">All Features</a></li>-->
+<!--</ul>-->
+<!--<ul>-->
+<!--    <li>-->
+<!--        <img src=""><b>Anh</b>-->
+<!--        <h3>UI/UX Design</h3>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis vulputate magna</p></li>-->
+<!--    <li>-->
+<!--        <img src=""><b>anh</b>-->
+<!--        <h3>Web Development</h3>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis vulputate magna</p></li>-->
+<!--    <li>-->
+<!--        <img src=""><b>anh</b>-->
+<!--        <h3>Branding</h3>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis vulputate magna</p></li>-->
+<!--    <li>-->
+<!--        <img src=""><b>anh</b>-->
+<!--        <h3>Photography</h3>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis vulputate magna</p></li>-->
+<!--    <li>-->
+<!--        <img src=""><b>anh</b>-->
+<!--        <h3>App development</h3>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis vulputate magna</p></li>-->
+<!--    <li>-->
+<!--        <img src=""><b>anh</b>-->
+<!--        <h3>Digital Making</h3>-->
+<!--        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit mi quis vulputate magna</p></li>-->
+<!--</ul>-->
+<div id="menu">
+    <ul>
+        <li class="dc"><a href="#">Trang chủ</a></li>
+        <li class="dc"><a href="#">Giới thiệu</a></li>
+        <li class="dc"><a href="#">Khoá Học</a>
+            <ul>
+                <li class="abc"><a href="#">Dành cho người mới bắt đầu</a></li>
+                <li class="abc"><a href="#">Danh cho người đã có nền tảng</a></li>
+                <li class="abc"><a href="#">Danh cho người muốn đi Nhật</a></li>
+            </ul>
+        </li>
+        <li class="dc"><a href="#">Lịch Khai Giảng</a></li>
+        <li class="dc"><a href="#">Tin Túc</a></li>
+        <li class="dc"><a href="#">Khám Phá</a></li>
+        <li class="dc"><a href="#">Tư vấn miễn phí</a></li>
+        <li class="dc"><a href="#">Test tư duy</a></li>
+        <li class="dc"><a href="#">Tuyển dụng</a></li>
+    </ul>
+</div>
+</body>
+</html>
